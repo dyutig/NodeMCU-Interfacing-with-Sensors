@@ -4,6 +4,7 @@ In this repository there are codes which I used while interfacing ESP8266 or Nod
 
 For example:
 In Soil-Moisture Sensor, the following connections were made:
+
 Soil Moisture Sensor            Node MCU
 A0                              A0
 VCC                             3V
