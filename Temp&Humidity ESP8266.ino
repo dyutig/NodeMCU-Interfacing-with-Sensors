@@ -1,0 +1,21 @@
+#include "DHT.h"
+
+DHT dht2(2,DHT11);
+
+void setup()
+{
+  Serial.begin(9600);
+
+}
+
+
+void loop()
+{
+
+    Serial.println("Temperature in C: ");
+    Serial.println((dht2.readTemperature( )));
+    Serial.println("Humidity:");
+    Serial.println((dht2.readHumidity()));
+    delay(5000);
+
+}
