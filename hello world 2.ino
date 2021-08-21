@@ -1,8 +1,4 @@
-/////////////////////////////////
-// Generated with a lot of love//
-// with TUNIOT FOR ESP8266     //
-// Website: Easycoding.tn      //
-/////////////////////////////////
+
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
 
